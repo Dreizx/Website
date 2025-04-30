@@ -1,0 +1,98 @@
+<html lang="en">
+ <head></head>
+ <body>
+  Code 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>My Stylish Mobile Website</title> 
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e9ecef;
+        }
+        header {
+            background: #007bff;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffc107;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-left: 5px solid #007bff;
+            background: #f8f9fa;
+            border-radius: 5px;
+        }
+        h2 {
+            color: #007bff;
+        }
+        footer {
+            background: #007bff;
+            color: #ffffff;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+        }
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+            .container {
+                width: 95%;
+            }
+        }
+    </style> 
+  <header> 
+   <h1>Welcome to My Stylish Mobile Website</h1> 
+   <nav> <a href="#home">Home</a> <a href="#about">About</a> <a href="#contact">Contact</a> 
+   </nav> 
+  </header> 
+  <div class="container"> 
+   <section id="home"> 
+    <h2>Home</h2> 
+    <p>This is a stylish website created with HTML and CSS on my phone. You can add more content here as needed.</p> 
+   </section> 
+   <section id="about"> 
+    <h2>About</h2> 
+    <p>This section can contain information about you or your website. Feel free to customize it!</p> 
+   </section> 
+   <section id="contact"> 
+    <h2>Contact</h2> 
+    <p>You can add your contact information here. For example, an email address or social media links.</p> 
+   </section> 
+  </div> 
+  <footer> 
+   <p>©Created By Keenzo</p> 
+  </footer> 
+ </body>
+</html>
